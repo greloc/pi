@@ -8,7 +8,9 @@ int main(int argc, char *argv[])
 	{
 		printf("%d\n",i);
 	}
-	puts("respberryPi");
+	puts("**********************");
 	puts("git...");
+	puts("**********************");
+
 	return 0;
 }
