@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+void p(int i, char *s);
+
 int main(int argc, char *argv[])
 {
 	int i = 0;
@@ -11,6 +13,8 @@ int main(int argc, char *argv[])
 	puts("**********************");
 	puts("git...");
 	puts("**********************");
+
+	p(5, "git");
 
 	return 0;
 }
